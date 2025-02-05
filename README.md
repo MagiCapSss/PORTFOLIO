@@ -41,11 +41,11 @@ Le portfolio d'ingénieur informatique a pour objectif de mettre en avant les co
 ## 5. Charte graphique
 ### Description des couleurs et typographies
 - **Palette de couleurs** : 
-  - Couleur principale : Bleu (#1E90FF) pour un aspect professionnel.
-  - Couleur secondaire : Gris foncé (#333333) pour le texte.
-  - Couleur d’accentuation : Vert (#32CD32) pour les boutons.
+  - Orage : HEX -> #4f6673 et RGBA -> 79,102,115,45
+  - Terre : HEX -> #b56320 et RGBA -> 181,99,32,71
+  - Crème : HEX -> #fffaf1 et RGBA -> 255,250,240,100
 - **Typographies** :
-  - Titre : Montserrat, sans-serif.
+  - Titre : Bebas Neue, sans-serif.
   - Texte : Open Sans, sans-serif.
 
 ## 6. Contraintes
