@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Open_Sans';
+    src: url("../fonts/Open_Sans/static/OpenSans-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open_Sans';
+    src: url("../fonts/Open_Sans/static/OpenSans-Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open_Sans';
+    src: url('../fonts/Open_Sans/static/OpenSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bebas_Neue';
+    src: url("../fonts/Bebas_Neue/BebasNeue-Regular.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas_Neue', sans-serif;
+}
+
+body, p {
+    font-family: 'Open_Sans', sans-serif;
+}
