@@ -54,7 +54,7 @@ Le portfolio d'ingénieur informatique a pour objectif de mettre en avant les co
 
 ## 5. Charte graphique
 ### Description des couleurs et typographies
-- **Logo** :
+- **Logo**
 ![Logo](./assets/img/Logo.png)
 - **Palette de couleurs** : 
   - Orage : HEX -> #4f6673 et RGBA -> 79,102,115,45
