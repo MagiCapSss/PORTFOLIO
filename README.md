@@ -3,17 +3,12 @@
 ## 1. Contexte
 Le portfolio d'ingénieur informatique a pour objectif de mettre en avant les compétences techniques et projets réalisés par l'ingénieur. Il servira de vitrine professionnelle pour attirer des recruteurs, des clients ou des collaborateurs potentiels.
 
----
-
 ## 2. Public cible
 - Recruteurs et entreprises du secteur IT
 - Clients potentiels pour des missions freelances
 - Partenaires et collaborateurs
 
----
-
 ## 3. Exigences fonctionnelles
-
 ### User stories et cas d'acceptation
 
 #### **User Story 1** - Consultation du portfolio
@@ -49,7 +44,8 @@ Le portfolio d'ingénieur informatique a pour objectif de mettre en avant les co
 **Cas d’acceptation** :
 - Un bouton permet de partager le portfolio sur LinkedIn, Twitter, etc.
 
----
+### **Use Case** - Diagramme UML usecase
+![Diagramme UML usecase](assets\img\Use_Case_Diagram.png)
 
 ## 4. Exigences techniques
 ### Technologies utilisées
