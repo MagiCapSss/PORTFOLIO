@@ -45,7 +45,7 @@ Le portfolio d'ingénieur informatique a pour objectif de mettre en avant les co
 - Un bouton permet de partager le portfolio sur LinkedIn, Twitter, etc.
 
 ### **Use Case** - Diagramme UML usecase
-![Diagramme UML usecase](assets\img\Use_Case_Diagram.png)
+![Diagramme UML usecase](./assets/img/Use_Case_Diagram.png)
 
 ## 4. Exigences techniques
 ### Technologies utilisées
