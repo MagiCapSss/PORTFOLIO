@@ -50,12 +50,12 @@ Le portfolio d'ingénieur informatique a pour objectif de mettre en avant les co
 ## 4. Exigences techniques
 ### Technologies utilisées
 - HTML, CSS, JavaScript pour le développement front-end.
-- Frameworks possibles : React, Vue.js ou Svelte.
 - Responsive Design pour une compatibilité mobile et tablette.
-- Hébergement sur GitHub Pages, Vercel ou Netlify.
 
 ## 5. Charte graphique
 ### Description des couleurs et typographies
+- **Logo** :
+![Logo](./assets/img/Logo.png)
 - **Palette de couleurs** : 
   - Orage : HEX -> #4f6673 et RGBA -> 79,102,115,45
   - Terre : HEX -> #b56320 et RGBA -> 181,99,32,71
