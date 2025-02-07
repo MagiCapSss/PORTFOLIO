@@ -1,7 +1,7 @@
 # Cahier des charges - Portfolio d'Ingénieur Informatique
 
 ## 1. Contexte
-Le portfolio d'ingénieur informatique a pour objectif de mettre en avant les compétences techniques et projets réalisés par l'ingénieur. Il servira de vitrine professionnelle pour attirer des recruteurs, des clients ou des collaborateurs potentiels.
+Le portfolio d'un ingénieur informatique vise à valoriser ses compétences techniques ainsi que les projets qu'il a réalisés. Il constitue une vitrine professionnelle essentielle pour capter l'attention des recruteurs, séduire des clients potentiels et établir des collaborations fructueuses. Grâce à une présentation claire et structurée, il met en avant son expertise et son savoir-faire, facilitant ainsi les opportunités professionnelles et les partenariats stratégiques.
 
 ## 2. Public cible
 - Recruteurs et entreprises du secteur IT
@@ -55,7 +55,7 @@ Le portfolio d'ingénieur informatique a pour objectif de mettre en avant les co
 ## 5. Charte graphique
 ### Description des couleurs et typographies
 - **Logo** :
-  - ![Logo](./assets/img/Logo.png)
+  ![Logo](./assets/img/Logo.png)
 - **Palette de couleurs** : 
   - Orage : HEX -> #4f6673 et RGBA -> 79,102,115,45
   - Terre : HEX -> #b56320 et RGBA -> 181,99,32,71
