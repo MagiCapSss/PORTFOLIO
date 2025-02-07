@@ -9,6 +9,7 @@ Le portfolio d'un ingénieur informatique vise à valoriser ses compétences tec
 - Partenaires et collaborateurs
 
 ## 3. Exigences fonctionnelles
+
 ### User stories et cas d'acceptation
 
 #### **User Story 1** - Consultation du portfolio
@@ -45,15 +46,22 @@ Le portfolio d'un ingénieur informatique vise à valoriser ses compétences tec
 - Un bouton permet de partager le portfolio sur LinkedIn, Twitter, etc.
 
 ### **Use Case** - Diagramme UML usecase
+
 ![Diagramme UML usecase](./assets/img/Use_Case_Diagram.png)
 
-## 4. Exigences techniques
+## 4. Technologies utilisées
+
 ### Technologies utilisées
-- HTML, CSS, JavaScript pour le développement front-end.
-- Responsive Design pour une compatibilité mobile et tablette.
+
+#### Développement Front-End
+- **HTML** : Structuration du contenu web.
+- **CSS** : Mise en forme et style visuel des pages.
+- **JavaScript** : Dynamisation des interactions utilisateur et gestion des événements.
+
+#### Compatibilité Multi-Plateforme
+- **Responsive Design** : Garantie d'une expérience utilisateur optimale sur des appareils mobiles et tablettes en adaptant le design à différentes tailles d'écran.
 
 ## 5. Charte graphique
-### Description des couleurs et typographies
 
 | **Logo** | **Palette de couleurs** | **Typographies** |
 |----------|-------------------------|------------------|
@@ -66,10 +74,10 @@ Le portfolio d'un ingénieur informatique vise à valoriser ses compétences tec
   - Hébergement et contact.
   
 - **RGPD** :
-  - Ajout d’une politique de confidentialité détaillant l’utilisation des données collectées (formulaire de contact, cookies, analytics).
+  - Mise en place d’une politique de confidentialité détaillant l’utilisation des données collectées (formulaire de contact, cookies, analytics).
   - Consentement explicite pour l’utilisation des cookies.
 
 - **SEO** :
-  - Structure sémantique respectant les bonnes pratiques (balises Hn, meta descriptions, balises alt sur les images).
-  - Temps de chargement optimisé (lazy loading, minification des ressources).
-  - Sitemap XML pour faciliter l’indexation par les moteurs de recherche.
+  - Structure sémantique conforme aux bonnes pratiques (balises Hn, meta descriptions, balises alt sur les images).
+  - Optimisation du temps de chargement (lazy loading, minification des ressources).
+  - Création d'un sitemap XML pour faciliter l’indexation par les moteurs de recherche.
