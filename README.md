@@ -57,11 +57,15 @@ Le portfolio d'un ingénieur informatique vise à valoriser ses compétences tec
 - **Logo** :
   ![Logo](./assets/img/Logo.png)
 
+| **Logo** |
+|----------|
+| ![Logo](./assets/img/Logo.png) |
+
 - **Palette de couleurs** : 
   - Orage : HEX -> #4f6673 et RGBA -> 79,102,115,45
   - Terre : HEX -> #b56320 et RGBA -> 181,99,32,71
   - Crème : HEX -> #fffaf1 et RGBA -> 255,250,240,100
-  
+
 - **Typographies** :
   - Titre : Bebas Neue, sans-serif.
   - Texte : Open Sans, sans-serif.
