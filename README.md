@@ -65,7 +65,7 @@ Le portfolio d'un ingénieur informatique vise à valoriser ses compétences tec
 
 | **Logo** | **Palette de couleurs** | **Typographies** |
 |----------|-------------------------|------------------|
-| ![Logo](./assets/img/Logo.png) | - **Orage** : HEX -> #4f6673, RGBA -> 79,102,115,45  <br> - **Terre** : HEX -> #b56320, RGBA -> 181,99,32,71  <br> - **Crème** : HEX -> #fffaf1, RGBA -> 255,250,240,100 | - **Titre** : Bebas Neue, sans-serif.  <br> - **Texte** : Open Sans, sans-serif. |
+| ![Logo](./assets/img/Logo.png) | - **Bleu profond** : HEX -> #2c3e50 <br> - **Gris anthracite** : HEX -> #1e2a38 <br> - **Crème** : HEX -> #fffaf1 | - **Titre** : Bebas Neue, sans-serif.  <br> - **Texte** : Open Sans, sans-serif. |
 
 ## 6. Contraintes
 ### Réglementation
