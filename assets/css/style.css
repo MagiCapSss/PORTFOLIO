@@ -207,33 +207,37 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: row;
+    gap: 300px;
+}
+
+.about-div {
+    display: flex;
     flex-direction: column;
-    gap: 30px;
-}
-
-.title-skills {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    flex-direction: row;
-    gap: 430px;
 }
 
-.img-skills {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: row;
-    gap: 260px;
+.about-div h3 {
+    font-family: var(--primary-font);
+    font-size: 48px;
 }
 
-.img-skills img {
+.soft-skills {
+    margin-bottom: 30px;
+}
+
+.hard-skills {
+    margin-bottom: 65px;
+}
+
+.about-div img {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 300px;
     transition: 0.5s;
 }
 
-.img-skills img:hover {
+.about-div img:hover {
     transform: scale(1.1);
 }
 
@@ -336,4 +340,111 @@ input, textarea, button {
 
 .contact-form button:hover {
     background-color: #2980b9;
+}
+
+@media (max-width: 768px) {
+    #hero-section {
+        flex-direction: column;
+    }
+
+    .hero-pic {
+        max-height: 200px;
+        max-width: 200px;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+    
+    .hero-text h3 {
+        font-size: 20px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .social {
+        max-width: 200px;
+    }
+
+    .social img {
+        max-width: 70px;
+        max-height: 70px;
+    }
+
+    #about-section {
+        gap: 20px;
+    }
+
+    #about-section h1{
+        font-size: 48px;
+    }
+    
+    .hard-soft-skills {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .about-div {
+        margin-bottom: 0px;
+    }
+    
+    .about-div h3 {
+        font-size: 32px;
+    }
+    
+    .soft-skills {
+        margin-bottom: 15px;
+    }
+    
+    .hard-skills {
+        margin-bottom: 15px;
+    }
+    
+    .about-div img {
+        margin-top: 10px;
+        width: 80%;
+        max-width: 200px;
+    }
+
+    #about-section button {
+        width: 200px;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    #projects-section h1 {
+        font-size: 48px;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .projects h3 {
+        font-size: 20px;
+    }
+
+    .projects img{
+        margin-top: 10px;
+        width: 200px;
+        height: 120px;
+    }
+
+    #contact-section h1 {
+        font-size: 48px;
+    }
+
+    input, textarea, button {
+        width: 220px;
+        padding: 5px;
+    }
+
+    .contact-form button {
+        width: 140px;
+        font-size: 20px;
+    }
 }
