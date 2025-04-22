@@ -1,97 +1,152 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Portfolio">
-        <meta name="keyword" content="Portfolio">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title>Portfolio</title>
-    </head>
-    <body>
-        <header id="header">
-            <nav class="nav-bar">
-                <a href="#hero-section"><img src="assets/img/Logo.png" alt="Logo d'Antoine IZARD"></a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio d'Antoine IZARD - Développeur et étudiant en ingénierie numérique">
+    <meta name="keywords" content="Portfolio, Développement web, Antoine IZARD, ESIEA, Ingénieur, Développeur">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <title>Antoine IZARD | Portfolio</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="nav-bar">
+            <a href="index.html" class="logo">
+                <img src="assets/img/Logo.png" alt="Logo d'Antoine IZARD">
+            </a>
 
-                <div class="link">
-                    <a href="#about-section">About me</a>
-                    <a href="#projects-section">Projects</a>
-                    <a href="#contact-section">Contact</a>
-                </div>
-            </nav>
-        </header>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
 
-        <main id="main">
-            <section id="hero-section">
-                <img class="hero-pic" src="assets/img/Me.png" alt="Photo de profil d'Antoine IZARD">
+            <div class="link">
+                <a href="index.html" class="active"><span>Accueil</span></a>
+                <a href="about.html"><span>À propos</span></a>
+                <a href="projects.html"><span>Projets</span></a>
+                <a href="contact.html"><span>Contact</span></a>
+            </div>
+        </nav>
+    </header>
 
-                <article class="hero-text">
-                    <h1>Hello i’m izard antoine</h1>
-                    <h3>3ème année à l’ESIEA</h3>
-                    <p>Étudiant en ingénierie numérique à l'ESIEA, passionné par l'IT et l'entrepreneuriat. Je développe des projets en logiciel, cybersécurité et IA, toujours en quête de nouveaux défis.</p>
-
-                    <div class="social">
-                        <a href="https://www.linkedin.com/" class="social-link linkedin-social"><img src="assets/img/Linkedin.png" alt="Lien vers linkedin"></a>
-                        <a href="https://github.com/MagiCapSss" class="social-link github-social"><img src="assets/img/Github.png" alt="Lien vers github"></a>
-                    </div>
-                </article>
-            </section>
-
-            <section id="about-section">
-                <h1>About me</h1>
-
-                <div class="hard-soft-skills">
-                    <div class="about-div">
-                        <h3 class="soft-skills">Soft Skills</h3>
-                        <img src="assets/img/Roue_soft_skills.png" alt="Soft Skills">
+    <main id="main">
+        <section id="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="intro-text">
+                        <span class="greeting">Bonjour, je suis</span>
+                        <h1>Antoine <span class="highlight">IZARD</span></h1>
+                        <h2>Développeur & Ingénieur Numérique</h2>
+                        <p>Étudiant en 3ème année à l'ESIEA, passionné par l'IT et l'entrepreneuriat. Je développe des solutions innovantes en logiciel, cybersécurité et IA, toujours en quête de nouveaux défis.</p>
+                        
+                        <div class="cta-buttons">
+                            <a href="projects.html" class="btn primary-btn">Voir mes projets</a>
+                            <a href="contact.html" class="btn secondary-btn">Me contacter</a>
+                        </div>
                     </div>
                     
-                    <div class="about-div">
-                        <h3 class="hard-skills">Hard Skills</h3>
-                        <img src="assets/img/Logo_hard_skills.png" alt="Hard Skills">
+                    <div class="social">
+                        <a href="https://www.linkedin.com/" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/MagiCapSss" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:a.izard@hotmail.com" class="social-link" aria-label="Email">
+                            <i class="far fa-envelope"></i>
+                        </a>
                     </div>
                 </div>
                 
-                <a href="assets/documents/CV.pdf" download>
-                    <button class="download-btn">Download my CV</button>
-                </a>
-            </section>
-
-            <section id="projects-section">
-                <h1>My Projects</h1>
-                <div class="projects">
-                    <div class="project-1">
-                        <h3>Project #1</h3>
-                        <a href="#"><img src="assets/img/Bases-de-la-cryptographie.png" alt="Cryptographie moderne"></a>
-                    </div>
-
-                    <div class="project-2">
-                        <h3>Project #2</h3>
-                        <a href="#"><img src="assets/img/Intelligence-Artificielle-Generative.jpg" alt="Intelligence Artificielle"></a>
-                    </div>
-
-                    <div class="project-3">
-                        <h3>Project #3</h3>
-                        <a href="#"><img src="assets/img/outil-de-developpement-web.png" alt="Developpement web"></a>
-                    </div>
+                <div class="about-image">
+                    <img src="assets/img/Me.png" alt="Portrait d'Antoine IZARD">
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="contact-section">
-                <h1>Contact me</h1>
-                <form action="#" class="contact-form">
-                    <input type="text" id="nom" name="nom" placeholder="Nom" required>
+        <section id="skills-highlight">
+            <div class="section-header">
+                <h2>Mes compétences</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Développement Web</h3>
+                    <p>HTML, CSS, JavaScript, React, Node.js</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersécurité</h3>
+                    <p>Sécurité pour les applications webs</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Base de données</h3>
+                    <p>SQL, MongoDB, Firebase, Gestion de données</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Apprentissage</h3>
+                    <p>Actuellement en 3ème année à l'ESIEA Laval</p>
+                </div>
+            </div>
+            
+            <div class="skills-cta">
+                <a href="about.html" class="btn secondary-btn">En savoir plus</a>
+            </div>
+        </section>
+    </main>
 
-                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/img/Logo.png" alt="Logo d'Antoine IZARD">
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-nav">
+                    <h4>Navigation</h4>
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À propos</a>
+                    <a href="projects.html">Projets</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Réseaux sociaux</h4>
+                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/MagiCapSss"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="far fa-envelope"></i> a.izard@hotmail.com</p>
+                    <p><i class="fas fa-phone"></i> +33 6 XX XX XX XX</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Antoine IZARD. Tous droits réservés.</p>
+        </div>
+    </footer>
 
-                    <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
-
-                    <button type="submit">Envoyer</button>
-                </form>
-            </section>
-        </main>
-
-        <footer id="footer">
-        </footer>
-    </body>
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
